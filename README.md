@@ -1,6 +1,9 @@
 # To-Do-List
- Run tests :
- npx playwright test
+
+###  Run tests :
+- npm install
+
+ - npx playwright test
  
 ## Test in Console
 ![](/Test-Photos.jpg)
