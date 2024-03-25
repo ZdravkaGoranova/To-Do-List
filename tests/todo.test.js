@@ -13,7 +13,7 @@ test('user can add a task', async ({ page }) => {
 // Verify if a user can delete a task
 test('user can delet a task', async ({ page }) => {
     // Add a task
-    await page.goto('http://localhost:5500/');
+    await page.goto('http://127.0.0.1:5500/');
     await page.fill('#task-input', 'Test Task');
     await page.click('#add-task');
 
@@ -29,7 +29,7 @@ test('user can delet a task', async ({ page }) => {
 // Verify if a user can mark as complete
 test('user can mark as  complete', async ({ page }) => {
     // Add a task
-    await page.goto('http://localhost:5500/');
+    await page.goto('http://127.0.0.1:5500/');
     await page.fill('#task-input', 'Test Task');
     await page.click('#add-task');
 
@@ -44,7 +44,7 @@ test('user can mark as  complete', async ({ page }) => {
 // Verify if a user can filter
 test('user can filter task', async ({ page }) => {
     // Add a task
-    await page.goto('http://localhost:5500/');
+    await page.goto('http://127.0.0.1:5500/');
     await page.fill('#task-input', 'Test Task');
     await page.click('#add-task');
 
